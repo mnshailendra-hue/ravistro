@@ -106,14 +106,59 @@ header p{
 font-size:18px;
 }
 
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.85);
+z-index:1000;
 }
+
+.nav-logo{
+color:#d4af37;
+font-size:22px;
+font-weight:bold;
+letter-spacing:3px;
+}
+
+.nav-icons{
+display:flex;
+gap:20px;
+}
+
+.nav-icons a{
+color:#d4af37;
+font-size:22px;
+text-decoration:none;
+}
+
+.nav-icons a:hover{
+color:#fff;
+  }
 </style>
 
 </head>
 
 
 <body>
+<nav class="navbar">
+  <div class="nav-logo">RAVISTRO</div>
 
+  <div class="nav-icons">
+    <a href="#" title="Search">
+      <i class="fas fa-search"></i>
+    </a>
+
+    <a href="https://instagram.com/shailendrakumar_08" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</nav>
 
 <header>
 
